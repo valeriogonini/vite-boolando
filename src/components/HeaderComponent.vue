@@ -17,6 +17,8 @@
     </header>
 </template>
 
-<style>
+<style lang="scss" scoped>
+@use '../style/partials/header';
+
 
 </style>

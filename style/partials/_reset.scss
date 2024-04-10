@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    margin: 0 auto;
+    max-width: 1000px;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ img{
+    max-width: 100%;
+    display: block;
+ }

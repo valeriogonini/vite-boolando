@@ -16,7 +16,9 @@
     </footer>
 </template>
 
-<style>
+<style lang="scss" scoped>
+
+@use '../style/partials/footer';
 
 
 </style>

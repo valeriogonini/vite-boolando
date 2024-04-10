@@ -119,5 +119,8 @@
   </main>
 </template>
 
-<style>
+<style lang="scss" scoped>
+
+@use '../style/partials/main';
+
 </style>
