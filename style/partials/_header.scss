@@ -1,3 +1,7 @@
+.container-header{
+    display: flex;
+    justify-content: space-between
+}
 .background-header{
     background-color: orange;
     padding: 15px 0;
@@ -5,4 +9,8 @@
 
 .background-header .row{
     justify-content: space-between;
+}
+.shop-header{
+    display: flex;
+    gap: 20px;
 }
