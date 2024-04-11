@@ -120,7 +120,5 @@
 </template>
 
 <style lang="scss" scoped>
-
 @use '../style/partials/main';
-
 </style>
