@@ -1,5 +1,12 @@
 <script>
+
+import ComponentCard from './ComponentCard.vue';
+
+
 export default {
+  components: {
+    ComponentCard
+  },
   data() {
     return {
       products: [
@@ -119,7 +126,9 @@ export default {
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-1">
+
+          <ComponentCard v-for="(product, i) in products" :item="product" :key="product.id" />
+          <!-- <div class="col-1">
             <div class="foto">
               <img src="/img/1.webp" alt="">
               <span class="sconto">30%</span>
@@ -134,8 +143,8 @@ export default {
             <h3>RELAXED FIT TEE UNISEX</h3>
             <span class="soldi-sconto">14,99$</span>
             <span class="textdecoretion"> 29,99$</span>
-          </div>
-          <div class="col-1">
+          </div> -->
+          <!-- <div class="col-1">
             <div class="foto">
               <img src="/img/2.webp" alt="">
               <span class="sconto">30%</span>
@@ -215,7 +224,7 @@ export default {
             <h3>RELAXED FIT TEE UNISEX</h3>
             <span class="soldi-sconto">14,99$</span>
             <span class="textdecoretion"> 29,99$</span>
-          </div>
+          </div> -->
 
 
         </div>
