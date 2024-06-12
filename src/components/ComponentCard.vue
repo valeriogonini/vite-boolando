@@ -11,14 +11,14 @@
 
             <span class="cuore">&hearts;</span>
             <div class="overlay">
-                <img :src="`/img/${item.backImage}`" alt="">
+                <img class="w-nation" :src="`/img/${item.backImage}`" alt="">
                 <span class="cuore-red">&hearts;</span>
             </div>
         </div>
         <p>{{ item.brand }}</p>
         <h3>{{ item.name }}</h3>
         <span class="soldi-sconto">14,99$</span>
-        <span class="textdecoretion">{{ item.price }}</span>
+        <span class="textdecoretion">{{ item.price }}$</span>
     </div>
 </template>
 
